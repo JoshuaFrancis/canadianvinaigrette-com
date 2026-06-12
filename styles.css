@@ -9,7 +9,7 @@
   --muted:     #6B7A9A;
   --rule:      rgba(28, 41, 81, .12);
 
-  --ff-serif: 'Playfair Display', Georgia, serif;
+  --ff-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
   --ff-sans:  'Inter', system-ui, sans-serif;
 
   --max: 1160px;
