@@ -57,7 +57,6 @@
       },
       "contactPoint": {
         "@type": "ContactPoint",
-        "email": "owner@canadianvinaigrette.com",
         "contactType": "sales"
       }
     },
@@ -70,7 +69,7 @@
           "name": "Is canadianvinaigrette.com available for purchase?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "canadianvinaigrette.com is currently available for purchase. Send an enquiry directly to owner@canadianvinaigrette.com. Brokers are welcome and confidentiality is assumed."
+            "text": "canadianvinaigrette.com is currently available for purchase. Use the contact form to send an enquiry. Brokers are welcome and confidentiality is assumed."
           }
         },
         {
@@ -78,7 +77,7 @@
           "name": "How do I make an offer on canadianvinaigrette.com?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Use the contact form on this page or email owner@canadianvinaigrette.com directly with your offer. The owner reads all enquiries personally and responds to serious offers promptly."
+            "text": "Use the contact form on this page with your offer. The owner reads all enquiries personally and responds to serious offers promptly."
           }
         },
         {
@@ -139,7 +138,7 @@
         <strong>canadianvinaigrette.com</strong> is available for purchase. The page below illustrates one direction: a small-batch vinaigrette house built on Quebec ice wine vinegar and orchard fruit, bottled in the Eastern Townships.
       </p>
       <div class="hero__cta">
-        <a class="btn-primary" href="mailto:owner@canadianvinaigrette.com?subject=Offer%20on%20canadianvinaigrette.com">
+        <a class="btn-primary" href="#acquire">
           Make an offer
           <span aria-hidden="true">→</span>
         </a>
@@ -390,15 +389,15 @@
       Send a note. Offers, partnerships, and serious enquiries are read by the owner directly. Brokers welcome. Confidentiality assumed.
     </p>
 
-    <form class="acquire-form" action="mailto:owner@canadianvinaigrette.com" method="post" enctype="text/plain">
+    <form class="acquire-form" action="#" method="post" enctype="text/plain">
       <div class="acquire-form__row">
         <label class="field">
           <span class="field__label">Name</span>
           <input type="text" name="name" required autocomplete="name" />
         </label>
         <label class="field">
-          <span class="field__label">Email</span>
-          <input type="email" name="email" required autocomplete="email" placeholder="you@company.com" />
+          <span class="field__label">Reply contact</span>
+          <input type="email" name="email" required autocomplete="email" placeholder="Where should we reply?" />
         </label>
       </div>
       <label class="field">
@@ -410,9 +409,6 @@
           Send enquiry
           <span aria-hidden="true">→</span>
         </button>
-        <p class="acquire-form__alt">
-          Or write directly to <a href="mailto:owner@canadianvinaigrette.com">owner@canadianvinaigrette.com</a>
-        </p>
       </div>
     </form>
   </div>
